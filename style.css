@@ -668,6 +668,9 @@ form .btn {
 }
 
 @media (width < 960px) {
+    .nav_links{
+        display: none;
+    }
 
     .hero_search {
         display: grid;
