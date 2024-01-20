@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Travel Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar container">
+
+            <div class="nav_logo">
+                <a href="#">Wanderlust</a>
+            </div>
+            <ul class="nav_links">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#trending">Trending</a></li>
+                <li class="link"><a href="#destination">Destination</a></li>
+                <li class="link"><a href="#guide">Guide</a></li>
+                <li class="link"><a href="#client">Client</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="hero container">
+            <div class="hero_title">
+                <h1>Explore the beauty of nature Discover the new you</h1>
+            </div>
+            <div class="hero_bcg">
+                <div class="hero_search">
+                    <div class="search_item">
+                        <p>Where do you want to go?</p>
+                        <input type="text" name="" id="" placeholder="Country, ZIP">
+                    </div>
+                    <div class="search_item">
+                        <p>Check In</p>
+                        <input type="text" name="" id="" placeholder="choose a date">
+                    </div>
+                    <div class="search_item">
+                        <p>Check Out</p>
+                        <input type="text" name="" id="" placeholder="choose a date">
+                    </div>
+                    <div class="search_item">
+                        <p>Guests</p>
+                        <input type="text" name="" id="" placeholder="Number of guests">
+                    </div>
+                    <button class="btn btn-primary">Check Availability</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="trending container">
+        <div class="trending_heading">
+            <div class="trending_title">
+                <h1>Trending 2023</h1>
+            </div>
+            <div class="section_nav">
+                <i class="ri-arrow-left-s-line"></i>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+        <div class="trending_grid">
+            <div class="card">
+                <div class="card_content">
+                    <img src="images/trending-1.jpg" alt="">
+                    <h1>Mountain Hiking Tour</h1>
+                    <p>Hiking Our | Stoke On Trent</p>
+                    <span>From</span>
+                    <div class="card_details">
+                        <div class="price">
+                            <h3>$957.50</h3>
+                            <span>*Price varies</span>
+                        </div>
+                        <div class="trending_ratings">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <div class="rating_text">
+                                <span>4.8(10)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h5><span><i class="ri-time-line"></i></span>7 days</h5>
+                    <p>
+                        <span><i class="ri-check-line"></i></span> Free Cancellation
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_content">
+                    <img src="images/trending-2.jpg" alt="">
+                    <h1>Train Tour Skyline
+                    </h1>
+                    <p>Adventure Journey | Group Tour</p>
+                    <span>From</span>
+                    <div class="card_details">
+                        <div class="price">
+                            <h3>$500.50</h3>
+                            <span>*Price varies</span>
+                        </div>
+                        <div class="trending_ratings">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <div class="rating_text">
+                                <span>4.2 (25)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h5><span><i class="ri-time-line"></i></span>3 days</h5>
+                    <p>
+                        <span><i class="ri-check-line"></i></span> Free Cancellation
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card_content">
+                    <img src="images/trending-3.jpg" alt="">
+                    <h1>Wild Forest Life</h1>
+                    <p>Scenic Beauty | Adrenaline Rush</p>
+                    <span>From</span>
+                    <div class="card_details">
+                        <div class="price">
+                            <h3>$957.50</h3>
+                            <span>*Price varies</span>
+                        </div>
+                        <div class="trending_ratings">
+                            <div class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <div class="rating_text">
+                                <span>4.5(15)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h5><span><i class="ri-time-line"></i></span>6 days</h5>
+                    <p>
+                        <span><i class="ri-check-line"></i></span> Free Cancellation
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Destination -->
+    <section class="destination container">
+        <div class="destination_heading">
+            <div class="destination_title">
+                <h1>Top Destinations</h1>
+            </div>
+            <div class="section_nav">
+                <i class="ri-arrow-left-s-line"></i>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+        <div class="destination_grid">
+            <div class="destination_card">
+                <img src="images/destination-1.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="images/destination-2.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="images/destination-3.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="images/destination-4.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="images/destination-5.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+            <div class="destination_card">
+                <img src="images/destination-6.jpg" alt="">
+                <div class="badge">4.7</div>
+                <div class="destination_details">
+                    <h4>Himalayas</h4>
+                    <p>Mountains</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best seller -->
+    <section class="seller container">
+        <div class="seller_heading">
+            <div class="heading_title">
+                <h1>Best Seller</h1>
+            </div>
+            <div class="seller_btn">
+                <button class="btn">Check all</button>
+            </div>
+        </div>
+        <div class="seller_grid">
+            <div class="seller_card">
+                <div class="seller_image">
+                    <img src="images/seller-1.jpg" alt="Trains Tour Skyline">
+                    <div class="seller_image_content">
+                        <div class="badge">-30%</div>
+                        <div class="seller_image_footer">
+                            <div class="seller_price">
+                                <p class="test">10 Days | 09 Nights</p>
+                                <h4>$955.50</h4>
+                            </div>
+                            <button class="btn">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="seller_card_content">
+
+                    <h3>Train Tour Skyline</h3>
+                    <p>Embark on a scenic railway adventure with Trains Tour Skyline</p>
+                </div>
+            </div>
+            <div class="seller_card">
+                <div class="seller_image">
+                    <img src="images/seller-2.jpg" alt="Trains Tour Skyline">
+                    <div class="seller_image_content">
+                        <div class="badge">-30%</div>
+                        <div class="seller_image_footer">
+                            <div class="seller_price">
+                                <p class="test">10 Days | 09 Nights</p>
+                                <h4>$955.50</h4>
+                            </div>
+                            <button class="btn">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="seller_card_content">
+
+                    <h3>Sea Nature View</h3>
+                    <p>Where the ocean's beauty meets your soul's serenity</p>
+                </div>
+            </div>
+            <div class="seller_card">
+                <div class="seller_image">
+                    <img src="images/seller-3.jpg" alt="Trains Tour Skyline">
+                    <div class="seller_image_content">
+                        <div class="badge">-30%</div>
+                        <div class="seller_image_footer">
+                            <div class="seller_price">
+                                <p class="test">10 Days | 09 Nights</p>
+                                <h4>$955.50</h4>
+                            </div>
+                            <button class="btn">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="seller_card_content">
+
+                    <h3>Tokyo Market Ptr</h3>
+                    <p>Where Tradition Meets Modern Marvels in Every Aisle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tour">
+        <div class="section_container tour_container">
+            <h4>Watch Our Video Tour</h4>
+            <div class="video_container">
+                <video src="images/video.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </section>
+    <!-- Tour guide -->
+    <section class="guide container">
+        <div class="guide_heading">
+            <div class="tour_title">
+                <h1>Tour Guide</h1>
+            </div>
+            <div class="section_nav">
+                <i class="ri-arrow-left-s-line"></i>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+        <div class="guide_content">
+            <div class="guide_card">
+                <div class="image">
+                    <img src="images/guide-1.jpg" alt="">
+                    <div class="socials">
+                        <div class="socials_icons">
+                            <i class="ri-linkedin-fill"></i>
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-facebook-line"></i>
+                        </div>
+                        <div class="follow">
+                            <button class="btn">Follow me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide_card_details">
+                    <div class="guide_info">
+                        <div class="name">
+                            <h4>Elias Hossain</h4>
+                        </div>
+                        <div class="job">
+                            <h5>Forset Guide</h5>
+                        </div>
+                    </div>
+                    <div class="guide_desc">
+                        <p>
+                            With a deep passion for forests, our experts are committed to craft immersive experiences to
+                            connect with the wilderness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="image">
+                    <img src="images/guide-2.jpg" alt="">
+                    <div class="socials">
+                        <div class="socials_icons">
+                            <i class="ri-linkedin-fill"></i>
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-facebook-line"></i>
+                        </div>
+                        <div class="follow">
+                            <button class="btn">Follow me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide_card_details">
+                    <div class="guide_info">
+                        <div class="name">
+                            <h4>Ahmed Hamdy</h4>
+                        </div>
+                        <div class="job">
+                            <h5>Ocean Guide</h5>
+                        </div>
+                    </div>
+                    <div class="guide_desc">
+                        <p>
+                            Join us as we embark on a journey of inspiring encounters in the ocean's surface where
+                            secrets become your unforgettable memories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="guide_card">
+                <div class="image">
+                    <img src="images/guide-3.jpg" alt="">
+                    <div class="socials">
+                        <div class="socials_icons">
+                            <i class="ri-linkedin-fill"></i>
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-facebook-line"></i>
+                        </div>
+                        <div class="follow">
+                            <button class="btn">Follow me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide_card_details">
+                    <div class="guide_info">
+                        <div class="name">
+                            <h4>Esiam Samir</h4>
+                        </div>
+                        <div class="job">
+                            <h5>City Guide</h5>
+                        </div>
+                    </div>
+                    <div class="guide_desc">
+                        <p>
+                            With a passion for travel and a commitment to excellence, we curate memorable experiences
+                            that go beyond the ordinary.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Tour Guide -->
+    <!-- client -->
+    <div class="client container">
+        <div class="client_heading">
+            <div class="client_title">
+                <h1>Clients Feedback</h1>
+            </div>
+            <div class="section_nav">
+                <i class="ri-arrow-left-s-line"></i>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+        </div>
+        <div class="grid_client">
+
+            <div class="client_card">
+                <div class="card_heading">
+                    <div class="quotes">
+                        <span>
+                            <i class="ri-double-quotes-r"></i>
+                        </span>
+                    </div>
+                    <div class="client_ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        I had the most incredible experience using this tour and travel website. From booking my flights
+                        and
+                        accommodations to discovering unique local activities, everything was seamless and
+                        well-organized.
+                        It made my trip stress-free and unforgettable. I can't wait to plan my next adventure with them!
+                    </p>
+                </div>
+                <div class="card_person">
+                    <img src="images/client-1.jpg" alt="">
+                    <div class="card_person_info">
+                        <h4>Mike Henderson</h4>
+                        <p>Business Manager & CEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client_card">
+                <div class="card_heading">
+                    <div class="quotes">
+                        <span>
+                            <i class="ri-double-quotes-r"></i>
+                        </span>
+                    </div>
+                    <div class="client_ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        As a frequent traveler, I've used various tour and travel websites, but this one stands out for
+                        its attention to detail and personalized recommendations. The itineraries they offer are
+                        thoughtfully curated, and the insider tips on their blog were a game-changer for my recent trip.
+                        Highly recommended! Thanks to them. </p>
+                </div>
+                <div class="card_person">
+                    <img src="images/client-2.jpg" alt="">
+                    <div class="card_person_info">
+                        <h4>Paul Harrison</h4>
+                        <p>Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="client_card">
+                <div class="card_heading">
+                    <div class="quotes">
+                        <span>
+                            <i class="ri-double-quotes-r"></i>
+                        </span>
+                    </div>
+                    <div class="client_ratings">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                        <i class="ri-star-line"></i>
+                    </div>
+                </div>
+                <div class="card_content">
+                    <p>
+                        I'm not an experienced traveler, but this website made me feel like a pro. The customer support
+                        team was incredibly helpful in guiding me through the planning process, and their city guides
+                        provided valuable insights. Thanks to them, I had a fantastic time exploring a new city with
+                        confidence. I can't thank them enough! </p>
+                </div>
+                <div class="card_person">
+                    <img src="images/client-3.jpg" alt="">
+                    <div class="card_person_info">
+                        <h4>John Williams
+                        </h4>
+                        <p>Content Writer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end client -->
+    <!-- subscribe section -->
+    <section class="subs ">
+        <div class="subs_heading">
+            <h1>Subscribe and be Updated</h1>
+        </div>
+        <form action="/">
+
+            <input type="text" placeholder="Please Enter Your Address">
+            <button class="btn">Subscribe</button>
+        </form>
+    </section>
+    <!-- end subscibe section -->
+    <!-- start footer -->
+    <footer class="container">
+        <div class="grid_footer">
+            <div class="footer_item">
+                <h4>Wanderlust</h4>
+                <p>
+                    Welcome to Wanderlust, our tour and travel website is your gateway to a world of wanderlust-inducing
+                    experiences.
+                </p>
+            </div>
+            <div class="footer_item">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Write to Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li> 
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="#">Vacation Package</a></li>
+                    <li><a href="#">List of Tours</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Travel on a Budget</a></li> 
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h4>Follow Us</h4>
+                <div class="socials">
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-linkedin-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-facebook-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
