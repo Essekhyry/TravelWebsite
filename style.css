@@ -635,7 +635,8 @@ form .btn {
     margin-right: .4rem;
 }
 .footer_item .socials{
-    display: flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
 }
 .rights p{
     text-align: center;
@@ -804,6 +805,10 @@ form .btn {
     }
     .subs {
         padding: 2rem;
+    }
+    .footer_item .socials{
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
     }
 
 }
