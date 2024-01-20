@@ -808,8 +808,12 @@ form .btn {
         padding: 2rem;
     }
     .footer_item .socials{
-        grid-template-columns: repeat(2,1fr); 
-        display: none;
+        /* grid-template-columns: repeat(2,1fr); 
+         */
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-wrap: wrap;
     }
 
 }
