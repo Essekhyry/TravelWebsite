@@ -809,6 +809,7 @@ form .btn {
     }
     .footer_item .socials{
         grid-template-columns: repeat(2,1fr); 
+        display: none;
     }
 
 }
