@@ -811,7 +811,7 @@ form .btn {
         /* grid-template-columns: repeat(2,1fr); 
          */
          display: flex;
-         justify-content: space-around;
+         justify-content: space-between;
          align-items: center;
          flex-wrap: wrap;
          gap: 2rem;
