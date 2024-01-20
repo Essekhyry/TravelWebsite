@@ -814,6 +814,7 @@ form .btn {
          justify-content: space-around;
          align-items: center;
          flex-wrap: wrap;
+         gap: 2rem;
     }
 
 }
