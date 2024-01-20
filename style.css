@@ -655,6 +655,9 @@ form .btn {
     .nav_links {
         display: none;
     }
+    body{
+        background-color: red;
+    }
 
     .hero_title h1 {
         font-size: 3rem;
